@@ -29,8 +29,25 @@ img {
     text-align: center;
 }
 
+
+.section-content {
+	padding: 5rem 0;
+}
+
+
 div.stick-to-bot {
     position:absolute;
     bottom: 3.5%;
     left: 50%;
+}
+
+#about {
+	background: url('img/megreece.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.about-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
 }
