@@ -1,0 +1,36 @@
+/* styles.css */
+
+html,
+body {
+	height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+
+#cover {
+	background: #222 url('img/stars.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption {
+	height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+div.stick-to-bot {
+    position:absolute;
+    bottom: 3.5%;
+    left: 50%;
+}
